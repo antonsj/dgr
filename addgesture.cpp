@@ -254,10 +254,10 @@ int main( int argc, char* argv[] ) {
 	//cout<<"yo7\n!!! ... ... !!!\n\n";
 	
 		
-	//cvReleaseImage (&mid);
-	//cvReleaseImage (&frames);
-	//cvReleaseCapture ( &capture );
-	//cvReleaseImage (&res);
+	cvReleaseImage (&mid);
+	cvReleaseImage (&frames);
+	cvReleaseCapture ( &capture );
+	cvReleaseImage (&res);
 	//cvDestroyWindow ( "Recording ...press ESC to stop !");				
 	//cout<<"yo8\n!!! ... ... !!!\n\n";
 	return 0;
